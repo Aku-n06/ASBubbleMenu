@@ -3,8 +3,12 @@
 Simple bubble menu animated :
 
 
+![alt tag](https://github.com/scamps88/ASBubbleMenu/blob/master/README/animated.gif)
+
 
 ### installation :
+
+- Just copy the ASMenuBubble folder to your project
 
 ### implementation :
 
@@ -25,6 +29,4 @@ func ASMenuBubbleSelectedMenuItemAtIndex(index: NSInteger) {
 
 bubbleMenu.closeAnimated()
 
-
-![alt tag](https://github.com/scamps88/ASBubbleMenu/blob/master/README/animated.gif)
 
