@@ -137,7 +137,8 @@
 			children = (
 				8093FD181C709EDE008B1B1F /* AppDelegate.swift */,
 				8093FD1A1C709EDE008B1B1F /* ViewController.swift */,
-				8093FD4D1C70A71E008B1B1F /* icons */,
+				804DDC181C70CCD0007D312C /* ASBubbleMenu */,
+				8093FD4D1C70A71E008B1B1F /* demo icons */,
 				8093FD1C1C709EDE008B1B1F /* Main.storyboard */,
 				8093FD1F1C709EDE008B1B1F /* Assets.xcassets */,
 				8093FD211C709EDE008B1B1F /* LaunchScreen.storyboard */,
@@ -164,10 +165,9 @@
 			path = UIConceptUITests;
 			sourceTree = "<group>";
 		};
-		8093FD4D1C70A71E008B1B1F /* icons */ = {
+		8093FD4D1C70A71E008B1B1F /* demo icons */ = {
 			isa = PBXGroup;
 			children = (
-				804DDC181C70CCD0007D312C /* ASBubbleMenu */,
 				803554DA1C70AA25005CF6D4 /* icon1.png */,
 				803554DB1C70AA25005CF6D4 /* icon2.png */,
 				803554DC1C70AA25005CF6D4 /* icon3.png */,
@@ -180,7 +180,7 @@
 				803554E31C70AA25005CF6D4 /* icon10.png */,
 				803554E41C70AA25005CF6D4 /* icon11.png */,
 			);
-			name = icons;
+			name = "demo icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
