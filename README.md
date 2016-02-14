@@ -12,8 +12,10 @@ Simple bubble menu animated :
 
 ### implementation :
 
-- Or, if you are using CocoaPod, add the followind line to yur Podfile
+- Or, if you are using CocoaPod, add the followind line to yur Podfile (adding the use_frameworks! flag at the end)
     pod 'ASBubbleMenu', :git => 'https://github.com/scamps88/ASBubbleMenu.git'
+
+    use_frameworks!
 
 - ti implement ASBubbleMenu just give him an array of UIimages and it will show them :
     ```swift
