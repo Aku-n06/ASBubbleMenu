@@ -29,8 +29,8 @@ class ViewController: UIViewController, ASMenuBubbleDelegate {
             UIImage(named: "icon7"),
             UIImage(named: "icon8"),
             UIImage(named: "icon9"),
-            UIImage(named: "icon10"),
-            UIImage(named: "icon11")
+            //UIImage(named: "icon10"),
+            //UIImage(named: "icon11")
         ]
         self.bubbleMenu.showWithIcons(icons)
         self.bubbleMenu.delegate = self
@@ -39,7 +39,7 @@ class ViewController: UIViewController, ASMenuBubbleDelegate {
     //MARK : ASMenuBubble Delegate
     
     func ASMenuBubbleSelectedMenuItemAtIndex(index: NSInteger) {
-        bubbleMenu.closeAnimated()
+        self.bubbleMenu.closeAnimated()
         let colors : Array<UIColor> = [
             UIColor(red:0.24, green:0.59, blue:0.96, alpha:1),
             UIColor(red:0.91, green:0.29, blue:0.27, alpha:1),
