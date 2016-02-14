@@ -13,20 +13,21 @@ Simple bubble menu animated :
 ### implementation :
 
 - ti implement ASBubbleMenu just give him an array of UIimages and it will show them :
+    ```swift
+    var bubbleMenu : ASMenuBubble!
 
-var bubbleMenu : ASMenuBubble!
-
-bubbleMenu = ASMenuBubble(frame: CGRectZero)
-bubbleMenu.showWithIcons(icons)
-
+    bubbleMenu = ASMenuBubble(frame: CGRectZero)
+    bubbleMenu.showWithIcons(icons)
+    ```
 
 - the ASMenuBubbleDelegate protocol will return the index selected :
-
+    ```swift
 func ASMenuBubbleSelectedMenuItemAtIndex(index: NSInteger) {
 }
-
+    ```
+    
 - to close the menu just call this method :
-
-bubbleMenu.closeAnimated()
-
+    ```swift
+    bubbleMenu.closeAnimated()
+    ```
 
