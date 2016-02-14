@@ -9,13 +9,12 @@ Simple bubble menu animated :
 ### installation :
 
 - Just copy the ASMenuBubble folder to your project
-
-### implementation :
-
 - Or, if you are using CocoaPod, add the followind line to yur Podfile (adding the use_frameworks! flag at the end)
     pod 'ASBubbleMenu', :git => 'https://github.com/scamps88/ASBubbleMenu.git'
 
     use_frameworks!
+    
+### implementation :
 
 - to implement ASBubbleMenu just give him an array of UIimages and it will show them :
     ```swift
