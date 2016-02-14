@@ -18,6 +18,9 @@
 		803554ED1C70AA25005CF6D4 /* icon9.png in Resources */ = {isa = PBXBuildFile; fileRef = 803554E21C70AA25005CF6D4 /* icon9.png */; };
 		803554EE1C70AA25005CF6D4 /* icon10.png in Resources */ = {isa = PBXBuildFile; fileRef = 803554E31C70AA25005CF6D4 /* icon10.png */; };
 		803554EF1C70AA25005CF6D4 /* icon11.png in Resources */ = {isa = PBXBuildFile; fileRef = 803554E41C70AA25005CF6D4 /* icon11.png */; };
+		804DDC151C70CCCA007D312C /* ASMenuBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804DDC121C70CCCA007D312C /* ASMenuBubble.swift */; };
+		804DDC161C70CCCA007D312C /* MenuBubbleV.png in Resources */ = {isa = PBXBuildFile; fileRef = 804DDC131C70CCCA007D312C /* MenuBubbleV.png */; };
+		804DDC171C70CCCA007D312C /* menuBubbleX.png in Resources */ = {isa = PBXBuildFile; fileRef = 804DDC141C70CCCA007D312C /* menuBubbleX.png */; };
 		8093FD191C709EDE008B1B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8093FD181C709EDE008B1B1F /* AppDelegate.swift */; };
 		8093FD1B1C709EDE008B1B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8093FD1A1C709EDE008B1B1F /* ViewController.swift */; };
 		8093FD1E1C709EDE008B1B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8093FD1C1C709EDE008B1B1F /* Main.storyboard */; };
@@ -25,9 +28,6 @@
 		8093FD231C709EDE008B1B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8093FD211C709EDE008B1B1F /* LaunchScreen.storyboard */; };
 		8093FD2E1C709EDF008B1B1F /* UIConceptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8093FD2D1C709EDF008B1B1F /* UIConceptTests.swift */; };
 		8093FD391C709EDF008B1B1F /* UIConceptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8093FD381C709EDF008B1B1F /* UIConceptUITests.swift */; };
-		8093FD4A1C709F10008B1B1F /* ASMenuBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8093FD471C709F10008B1B1F /* ASMenuBubble.swift */; };
-		8093FD4B1C709F10008B1B1F /* MenuBubbleV.png in Resources */ = {isa = PBXBuildFile; fileRef = 8093FD481C709F10008B1B1F /* MenuBubbleV.png */; };
-		8093FD4C1C709F10008B1B1F /* menuBubbleX.png in Resources */ = {isa = PBXBuildFile; fileRef = 8093FD491C709F10008B1B1F /* menuBubbleX.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +59,9 @@
 		803554E21C70AA25005CF6D4 /* icon9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon9.png; sourceTree = "<group>"; };
 		803554E31C70AA25005CF6D4 /* icon10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon10.png; sourceTree = "<group>"; };
 		803554E41C70AA25005CF6D4 /* icon11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon11.png; sourceTree = "<group>"; };
+		804DDC121C70CCCA007D312C /* ASMenuBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ASMenuBubble.swift; path = ASBubbleMenu/ASMenuBubble.swift; sourceTree = "<group>"; };
+		804DDC131C70CCCA007D312C /* MenuBubbleV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MenuBubbleV.png; path = ASBubbleMenu/MenuBubbleV.png; sourceTree = "<group>"; };
+		804DDC141C70CCCA007D312C /* menuBubbleX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuBubbleX.png; path = ASBubbleMenu/menuBubbleX.png; sourceTree = "<group>"; };
 		8093FD151C709EDE008B1B1F /* UIConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8093FD181C709EDE008B1B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8093FD1A1C709EDE008B1B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,9 +75,6 @@
 		8093FD341C709EDF008B1B1F /* UIConceptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIConceptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8093FD381C709EDF008B1B1F /* UIConceptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConceptUITests.swift; sourceTree = "<group>"; };
 		8093FD3A1C709EDF008B1B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8093FD471C709F10008B1B1F /* ASMenuBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASMenuBubble.swift; sourceTree = "<group>"; };
-		8093FD481C709F10008B1B1F /* MenuBubbleV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBubbleV.png; sourceTree = "<group>"; };
-		8093FD491C709F10008B1B1F /* menuBubbleX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBubbleX.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +102,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		804DDC181C70CCD0007D312C /* ASBubbleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				804DDC121C70CCCA007D312C /* ASMenuBubble.swift */,
+				804DDC131C70CCCA007D312C /* MenuBubbleV.png */,
+				804DDC141C70CCCA007D312C /* menuBubbleX.png */,
+			);
+			name = ASBubbleMenu;
+			sourceTree = "<group>";
+		};
 		8093FD0C1C709EDE008B1B1F = {
 			isa = PBXGroup;
 			children = (
@@ -128,7 +138,6 @@
 				8093FD181C709EDE008B1B1F /* AppDelegate.swift */,
 				8093FD1A1C709EDE008B1B1F /* ViewController.swift */,
 				8093FD4D1C70A71E008B1B1F /* icons */,
-				8093FD461C709F10008B1B1F /* ASMenuBubble */,
 				8093FD1C1C709EDE008B1B1F /* Main.storyboard */,
 				8093FD1F1C709EDE008B1B1F /* Assets.xcassets */,
 				8093FD211C709EDE008B1B1F /* LaunchScreen.storyboard */,
@@ -155,20 +164,10 @@
 			path = UIConceptUITests;
 			sourceTree = "<group>";
 		};
-		8093FD461C709F10008B1B1F /* ASMenuBubble */ = {
-			isa = PBXGroup;
-			children = (
-				8093FD471C709F10008B1B1F /* ASMenuBubble.swift */,
-				8093FD481C709F10008B1B1F /* MenuBubbleV.png */,
-				8093FD491C709F10008B1B1F /* menuBubbleX.png */,
-			);
-			name = ASMenuBubble;
-			path = "bubble menu";
-			sourceTree = "<group>";
-		};
 		8093FD4D1C70A71E008B1B1F /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				804DDC181C70CCD0007D312C /* ASBubbleMenu */,
 				803554DA1C70AA25005CF6D4 /* icon1.png */,
 				803554DB1C70AA25005CF6D4 /* icon2.png */,
 				803554DC1C70AA25005CF6D4 /* icon3.png */,
@@ -296,14 +295,14 @@
 				8093FD231C709EDE008B1B1F /* LaunchScreen.storyboard in Resources */,
 				803554EA1C70AA25005CF6D4 /* icon6.png in Resources */,
 				803554EE1C70AA25005CF6D4 /* icon10.png in Resources */,
-				8093FD4B1C709F10008B1B1F /* MenuBubbleV.png in Resources */,
 				803554E51C70AA25005CF6D4 /* icon1.png in Resources */,
 				8093FD201C709EDE008B1B1F /* Assets.xcassets in Resources */,
 				803554EF1C70AA25005CF6D4 /* icon11.png in Resources */,
-				8093FD4C1C709F10008B1B1F /* menuBubbleX.png in Resources */,
 				803554EC1C70AA25005CF6D4 /* icon8.png in Resources */,
 				803554EB1C70AA25005CF6D4 /* icon7.png in Resources */,
 				803554E61C70AA25005CF6D4 /* icon2.png in Resources */,
+				804DDC171C70CCCA007D312C /* menuBubbleX.png in Resources */,
+				804DDC161C70CCCA007D312C /* MenuBubbleV.png in Resources */,
 				8093FD1E1C709EDE008B1B1F /* Main.storyboard in Resources */,
 				803554ED1C70AA25005CF6D4 /* icon9.png in Resources */,
 				803554E81C70AA25005CF6D4 /* icon4.png in Resources */,
@@ -332,7 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8093FD1B1C709EDE008B1B1F /* ViewController.swift in Sources */,
-				8093FD4A1C709F10008B1B1F /* ASMenuBubble.swift in Sources */,
+				804DDC151C70CCCA007D312C /* ASMenuBubble.swift in Sources */,
 				8093FD191C709EDE008B1B1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
