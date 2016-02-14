@@ -17,7 +17,7 @@ Simple bubble menu animated :
 
     use_frameworks!
 
-- ti implement ASBubbleMenu just give him an array of UIimages and it will show them :
+- to implement ASBubbleMenu just give him an array of UIimages and it will show them :
     ```swift
     var bubbleMenu : ASMenuBubble!
 
