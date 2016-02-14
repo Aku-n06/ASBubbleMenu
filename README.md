@@ -12,6 +12,9 @@ Simple bubble menu animated :
 
 ### implementation :
 
+- Or, if you are using CocoaPod, add the followind line to yur Podfile
+    pod 'ASBubbleMenu', :git => 'https://github.com/scamps88/ASBubbleMenu.git'
+
 - ti implement ASBubbleMenu just give him an array of UIimages and it will show them :
     ```swift
     var bubbleMenu : ASMenuBubble!
@@ -25,7 +28,7 @@ Simple bubble menu animated :
 func ASMenuBubbleSelectedMenuItemAtIndex(index: NSInteger) {
 }
     ```
-    
+
 - to close the menu just call this method :
     ```swift
     bubbleMenu.closeAnimated()
