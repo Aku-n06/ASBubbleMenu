@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.1'
   s.source_files  = "UIConcept/ASBubbleMenu", "UIConcept/ASBubbleMenu/*.swift"
   s.resources = "UIConcept/ASBubbleMenu/*.png"
+  s.framework  = 'SystemConfiguration'
   s.requires_arc = true
 
 end

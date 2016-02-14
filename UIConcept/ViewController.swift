@@ -29,8 +29,8 @@ class ViewController: UIViewController, ASMenuBubbleDelegate {
             UIImage(named: "icon7"),
             UIImage(named: "icon8"),
             UIImage(named: "icon9"),
-            //UIImage(named: "icon10"),
-            //UIImage(named: "icon11")
+            UIImage(named: "icon10"),
+            UIImage(named: "icon11")
         ]
         self.bubbleMenu.showWithIcons(icons)
         self.bubbleMenu.delegate = self
