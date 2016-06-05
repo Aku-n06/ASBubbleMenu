@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/scamps88/ASBubbleMenu"
   s.license      = "MIT (example)"
   s.author             = { "Alberto Scampini" => "alberto.scampini" }
+  s.source       = { :git => "https://github.com/scamps88/ASBubbleMenu.git", :tag => "1.0.0" }
   s.platform     = :ios, '7.1'
   s.source_files  = "UIConcept/ASBubbleMenu", "UIConcept/ASBubbleMenu/*.swift"
   s.resources = "UIConcept/ASBubbleMenu/*.png"
