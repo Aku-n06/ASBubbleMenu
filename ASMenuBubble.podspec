@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/scamps88/ASBubbleMenu"
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   s.author             = { "Alberto Scampini" => "alberto.scampini" }
   s.source       = { :git => "https://github.com/scamps88/ASBubbleMenu.git", :tag => "1.0.0" }
   s.platform     = :ios, '7.1'
